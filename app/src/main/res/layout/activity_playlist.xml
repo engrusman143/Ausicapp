@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_playlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.ausicapp.playlistActivity">
+
+    <LinearLayout style="@style/musicContainer">
+
+        <ScrollView
+            android:id="@+id/description"
+            style="@style/descriptionScroll">
+
+            <LinearLayout style="@style/descriptionContainer">
+
+                <TextView
+                    style="@style/description"
+                    android:text="@string/description_text_music" />
+
+                <Button
+                    android:id="@+id/closeButton"
+                    style="@style/closeButton" />
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView style="@style/ContentContainer">
+
+            <LinearLayout style="@style/Content">
+
+                <Button
+                    android:id="@+id/playlist1"
+                    style="@style/songsOption"
+                    android:drawableStart="@drawable/play"
+                    android:text="@string/playlist1" />
+
+                <View style="@style/borderStyle" />
+
+                <Button
+                    android:id="@+id/palylist2"
+                    style="@style/songsOption"
+                    android:drawableStart="@drawable/play"
+                    android:text="@string/playlist2" />
+
+                <View style="@style/borderStyle" />
+
+                <Button
+                    android:id="@+id/playlist3"
+                    style="@style/songsOption"
+                    android:drawableStart="@drawable/play"
+                    android:text="@string/playlist3" />
+
+                <View style="@style/borderStyle" />
+
+                <Button
+                    android:id="@+id/playlist4"
+                    style="@style/songsOption"
+                    android:drawableStart="@drawable/play"
+                    android:text="@string/playlist4" />
+
+                <View style="@style/borderStyle" />
+
+                <Button
+                    android:id="@+id/playlist5"
+                    style="@style/songsOption"
+                    android:drawableStart="@drawable/play"
+                    android:text="@string/playlist5" />
+
+                <View style="@style/borderStyle" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

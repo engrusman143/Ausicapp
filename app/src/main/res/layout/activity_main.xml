@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.ausicapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/studio"
+        android:contentDescription="@string/app_name"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"/>
+    <ScrollView
+        android:id="@+id/description"
+        style="@style/descriptionScroll">
+
+        <LinearLayout
+            style="@style/descriptionContainer">
+
+            <TextView
+                style="@style/description"
+                android:text="@string/description_text" />
+
+            <Button
+                android:id="@+id/closeDescriptionButton"
+                style="@style/closeButton" />
+        </LinearLayout>
+    </ScrollView>
+
+            <ScrollView style="@style/ContentContainer">
+
+                <LinearLayout style="@style/Content">
+
+                    <Button
+                        android:id="@+id/songs"
+                        style="@style/music"
+                        android:text="@string/songs" />
+
+                    <View style="@style/borderStyle" />
+
+                    <Button
+                        android:id="@+id/playlist"
+                        style="@style/music"
+                        android:text="@string/playlist" />
+
+                    <View style="@style/borderStyle" />
+
+                    <Button
+                        android:id="@+id/artist"
+                        style="@style/music"
+                        android:text="@string/artist" />
+
+                    <View style="@style/borderStyle" />
+
+                    <Button
+                        android:id="@+id/schedule"
+                        style="@style/music"
+                        android:text="@string/schedule" />
+
+                    <View style="@style/borderStyle" />
+
+                    <Button
+                        android:id="@+id/share"
+                        style="@style/music"
+                        android:text="@string/share" />
+
+                    <View style="@style/borderStyle" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

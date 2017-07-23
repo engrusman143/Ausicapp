@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Music app</string>
+    <string name="select_music">NaachGana</string>
+    <string name="description_text">On this page you can find different categories.you just need to select what do you want to listen.Once you click on any option the new activity will open with a bunch of songs in it.</string>
+    <string name="close">close</string>
+    <string name="songs">songs</string>
+    <string name="description_text_music">This text is scrollable. On this page the user can play audio songs. To allow internet connection an uses-permission is called in manifest file. When the user click on one of the songs, Should should play with any media player. Remember this is only a structure app. some of its parts might not be functional at the moment.</string>
+    <string name="playlist">playlist</string>
+    <string name="artist">artist</string>
+    <string name="schedule">schedule</string>
+    <string name="share">share</string>
+    <string name="songs_label">Songs</string>
+    <string name="playlist_label">Playlist</string>
+    <string name="artist_label">Artist</string>
+    <string name="schedule_label">Schedule</string>
+    <string name="share_label">Share</string>
+    <!-- songs category -->
+    <string name="songs1">Ik vari Aa</string>
+    <string name="songs2">Ullu ka pattha</string>
+    <string name="songs3">Main hoon</string>
+    <string name="songs4">Galti se mistake</string>
+    <string name="songs5">Befikar</string>
+    <!-- playlist category -->
+    <string name="playlist1">Romantic</string>
+    <string name="playlist2">Hip hop</string>
+    <string name="playlist3">Hate</string>
+    <string name="playlist4">classical</string>
+    <string name="playlist5">Qwali</string>
+    <!-- artist category -->
+    <string name="artist1">Usman</string>
+    <string name="artist2">joshua</string>
+    <string name="artist3">dj</string>
+    <string name="artist4">salena</string>
+    <string name="artist5">justin</string>
+
+    <!-- schedule category -->
+    <string name="schedule1">Usman</string>
+    <string name="schedule2">joshua</string>
+    <string name="schedule3">dj</string>
+    <string name="schedule4">salena</string>
+    <string name="schedule5">justin</string>
+
+    <!-- share category -->
+    <string name="share1">facebook, instagram,twitter,gmail</string>
+    <string name="description_text_share">on this page you can share the content like songs playlists artists to other friends to any network like facebook, instagram,twitter,gmail</string>
+
+    <!-- Common to All Activities Strings-->
+    <string name="no_song">No Song Is Selected</string>
+    <string name="now_playing">You are listening to:</string>
+    <string name="pause">Song is on pause!</string>
+</resources>
